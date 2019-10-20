@@ -20,8 +20,8 @@ end
 
 def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  snacks.detect
+  snacks.detect {|elem| elem.include(cheese_types)
 
-end
+
 end
 end
